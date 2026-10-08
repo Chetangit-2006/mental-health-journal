@@ -1,5 +1,4 @@
-\# Mental Health Journal and Chatbot
-
+# Mental Health Journal and Chatbot
 
 
 A full-stack mental wellness application that allows users to privately record journal entries, track moods, and interact with an AI-powered wellness assistant.
