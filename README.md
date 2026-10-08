@@ -109,3 +109,38 @@ mental-health-journal/
 
 └── README.md
 
+## API Overview
+
+### Authentication
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/auth/register` | Register a new user |
+| POST | `/api/auth/login` | Login user |
+
+### Journal
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/journal` | Create journal |
+| GET | `/api/journal` | Get user journals |
+| PUT | `/api/journal/:id` | Update journal |
+| DELETE | `/api/journal/:id` | Delete journal |
+
+### AI Chat
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/ai/chat` | Send message to AI |
+| GET | `/api/ai/history` | Get chat history |
+
+All protected endpoints require a JWT token.
+
+## Security
+
+- Passwords are hashed using bcrypt.
+- JWT authentication protects private routes.
+- MongoDB credentials are stored in environment variables.
+- Gemini API keys are never exposed to the frontend.
+- `.env` files are excluded from Git.
+- Users can only access their own journal entries and chat history.
