@@ -49,3 +49,25 @@ Node.js + Express Backend
       v          v
  MongoDB       Gemini API
  Atlas
+
+ ## Screenshots
+
+### Login / Registration
+
+![Login](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Mood Analytics
+
+![Mood Analytics](screenshots/dashboard-mood.png)
+
+### Journal
+
+![Journal](screenshots/journal.png)
+
+### AI Chatbot
+
+![AI Chatbot](screenshots/chatbox.png)
