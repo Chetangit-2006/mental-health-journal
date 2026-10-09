@@ -4,17 +4,15 @@ A full-stack AI-powered mental wellness application that helps users privately r
 
 ## Features
 
-- User registration and login
-- JWT authentication
-- Secure password hashing with bcrypt
-- Private journal entries
-- Create, edit, and delete journals
-- Mood tracking
-- Mood analytics
-- AI-powered wellness chatbot
-- Chat history
-- MongoDB data persistence
-- Responsive user interface
+* **User Authentication:** Secure registration and login using password hashing and JWT authentication.
+* **Personal Journal:** Create, view, edit, and delete journal entries.
+* **Mood Tracking:** Record moods alongside journal entries.
+* **Mood Analytics:** Review mood patterns over time.
+* **AI Chatbot:** Interact with an AI-powered chatbot using the Google Gemini API.
+* **Chat History:** Access previous conversations, if supported by the application.
+* **Database Integration:** Store application data using MongoDB and Mongoose.
+* **Responsive Interface:** Access the application across desktop and mobile screen sizes.
+
 
 ## Tech Stack
 
