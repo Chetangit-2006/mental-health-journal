@@ -39,38 +39,19 @@ A full-stack AI-powered mental wellness application that helps users privately r
 
 ## Architecture
 
+The application uses a frontend-backend architecture. The frontend communicates with the Express backend through REST APIs. The backend interacts with MongoDB Atlas for data persistence and the Google Gemini API for AI chatbot responses.
+
 ```text
 Next.js / React Frontend
           |
           | REST API
           v
 Node.js + Express Backend
-       /        \
-      v          v
- MongoDB       Gemini API
- Atlas
+       /          \
+      v            v
+MongoDB Atlas   Gemini API
+```
 
- ## Screenshots
-
-### Login / Registration
-
-![Login](screenshots/login.png)
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Mood Analytics
-
-![Mood Analytics](screenshots/dashboard-mood.png)
-
-### Journal
-
-![Journal](screenshots/journal.png)
-
-### AI Chatbot
-
-![AI Chatbot](screenshots/chatbox.png)
 
 
 
