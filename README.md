@@ -53,55 +53,52 @@ MongoDB Atlas   Gemini API
 ```
 
 
-
-
-
 ## Installation and Setup
 
 ### Prerequisites
 
 * Node.js and npm
 * MongoDB Atlas account or a local MongoDB instance
-* Google Gemini API key (for the chatbot)
+* Google Gemini API key
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Chetangit-2006/mental-health-journal.git
 cd mental-health-journal
 ```
 
-### 2. Set up the backend
+### 2. Set Up the Backend
 
 ```bash
 cd backend
 npm install
 ```
 
-Create a `.env` file in the backend folder and configure the required environment variables. Use `.env.example` if available.
+Create a `.env` file inside the `backend` folder and configure the environment variables required by your backend, such as the MongoDB connection string, JWT secret, and Gemini API key.
 
-Start the backend using the command configured in your backend `package.json`, for example:
+Start the backend using the start script defined in `backend/package.json`.
 
-```bash
-node server.js
-```
+### 3. Set Up the Frontend
 
-### 3. Set up the frontend
-
-Open a separate terminal:
+Open a new terminal:
 
 ```bash
-cd frontend
+cd mental-health-journal/frontend
 npm install
-npm run dev
 ```
 
-### 4. Open the application
+Start the frontend using the start script defined in `frontend/package.json`.
 
-Visit:
-http://localhost:3000
+### 4. Open the Application
 
-### Security
+Open the local URL printed in your frontend terminal, usually `http://localhost:3000`.
 
-Never commit API keys, database credentials, passwords, or JWT secrets to GitHub.
+**Note:** Configure environment variables according to your project code. Never commit API keys, database credentials, or other secrets to GitHub.
+
+
+
+
+
+
 
