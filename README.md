@@ -71,3 +71,54 @@ Node.js + Express Backend
 ### AI Chatbot
 
 ![AI Chatbot](screenshots/chatbox.png)
+
+
+## Installation and Setup
+
+### Prerequisites
+
+* Node.js and npm
+* MongoDB Atlas account or a local MongoDB instance
+* Google Gemini API key (for the chatbot)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Chetangit-2006/mental-health-journal.git
+cd mental-health-journal
+```
+
+### 2. Set up the backend
+
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file in the backend folder and configure the required environment variables. Use `.env.example` if available.
+
+Start the backend using the command configured in your backend `package.json`, for example:
+
+```bash
+node server.js
+```
+
+### 3. Set up the frontend
+
+Open a separate terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 4. Open the application
+
+Visit:
+http://localhost:3000
+
+### Security
+
+Never commit API keys, database credentials, passwords, or JWT secrets to GitHub.
+
